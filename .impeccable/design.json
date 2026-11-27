@@ -1,0 +1,473 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-26T03:33:40+00:00",
+  "title": "Design System: tehospeda · Hotel Website",
+  "extensions": {
+    "colorMeta": {
+      "night": {
+        "role": "neutral",
+        "displayName": "Night Blue",
+        "canonical": "oklch(28.2% 0.034 256)",
+        "tonalRamp": [
+          "#070b12",
+          "#1d252e",
+          "#37414e",
+          "#525f6f",
+          "#717e91",
+          "#93a0b0",
+          "#bbc5d3",
+          "#e7effa"
+        ]
+      },
+      "night-2": {
+        "role": "neutral",
+        "displayName": "Night Blue Raised",
+        "canonical": "oklch(34.8% 0.040 256)",
+        "tonalRamp": [
+          "#060b13",
+          "#1c2530",
+          "#354150",
+          "#505f73",
+          "#6f7f94",
+          "#91a0b3",
+          "#b9c5d6",
+          "#e6effc"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "oklch(25.0% 0.022 257)",
+        "tonalRamp": [
+          "#080b10",
+          "#20242b",
+          "#3a4049",
+          "#575e69",
+          "#767e8a",
+          "#989faa",
+          "#bec5cd",
+          "#eaeff6"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Slate Muted",
+        "canonical": "oklch(50.3% 0.026 257)",
+        "tonalRamp": [
+          "#080b10",
+          "#1f242c",
+          "#39404a",
+          "#555e6b",
+          "#747e8c",
+          "#969fac",
+          "#bdc5cf",
+          "#e9eff7"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Sand Hairline",
+        "canonical": "oklch(90.2% 0.016 83)",
+        "tonalRamp": [
+          "#0d0b08",
+          "#26241f",
+          "#433f38",
+          "#625d54",
+          "#827d73",
+          "#a29e95",
+          "#c7c4bd",
+          "#f1eee9"
+        ]
+      },
+      "sand": {
+        "role": "neutral",
+        "displayName": "Sand",
+        "canonical": "oklch(96.5% 0.007 81)",
+        "tonalRamp": [
+          "#0c0b09",
+          "#252421",
+          "#413f3c",
+          "#605d59",
+          "#7f7d79",
+          "#a09e9a",
+          "#c6c4c1",
+          "#f0eeec"
+        ]
+      },
+      "sand-2": {
+        "role": "neutral",
+        "displayName": "Deep Sand",
+        "canonical": "oklch(93.6% 0.015 81)",
+        "tonalRamp": [
+          "#0d0b08",
+          "#26241f",
+          "#433f39",
+          "#625d55",
+          "#827d74",
+          "#a29e96",
+          "#c7c3bd",
+          "#f1eee9"
+        ]
+      },
+      "bronze": {
+        "role": "primary",
+        "displayName": "Lobby Bronze",
+        "canonical": "oklch(56.5% 0.095 69)",
+        "tonalRamp": [
+          "#170600",
+          "#361e00",
+          "#58380b",
+          "#7d5420",
+          "#a0733e",
+          "#be966a",
+          "#dfbd99",
+          "#ffeace"
+        ]
+      },
+      "bronze-dark": {
+        "role": "primary",
+        "displayName": "Deep Bronze",
+        "canonical": "oklch(49.0% 0.084 69)",
+        "tonalRamp": [
+          "#160700",
+          "#341f03",
+          "#563915",
+          "#79552a",
+          "#9c7547",
+          "#ba9771",
+          "#dcbe9e",
+          "#ffead2"
+        ]
+      },
+      "bronze-light": {
+        "role": "primary",
+        "displayName": "Pale Bronze",
+        "canonical": "oklch(65.9% 0.098 70)",
+        "tonalRamp": [
+          "#170600",
+          "#361e00",
+          "#593807",
+          "#7d541c",
+          "#a0733b",
+          "#be9667",
+          "#dfbe97",
+          "#ffeacc"
+        ]
+      },
+      "ok": {
+        "role": "status",
+        "displayName": "Confirmation Green",
+        "canonical": "oklch(47.7% 0.088 154)",
+        "tonalRamp": [
+          "#001004",
+          "#092c17",
+          "#1f4a2f",
+          "#366b48",
+          "#548c66",
+          "#7cac8a",
+          "#a8d0b3",
+          "#d9f8e1"
+        ]
+      },
+      "danger": {
+        "role": "status",
+        "displayName": "Brick Red",
+        "canonical": "oklch(50.4% 0.147 30)",
+        "tonalRamp": [
+          "#220000",
+          "#470904",
+          "#702017",
+          "#9b392c",
+          "#c25848",
+          "#df8171",
+          "#fdad9f",
+          "#ffddd2"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Surface White",
+        "canonical": "oklch(100% 0 0)",
+        "tonalRamp": [
+          "#1a1a1a",
+          "#333333",
+          "#4d4d4d",
+          "#808080",
+          "#a6a6a6",
+          "#cccccc",
+          "#e6e6e6",
+          "#ffffff"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hotel name in the hero. One per page."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section titles; 2.25rem below 640px, 3rem from 640px."
+      },
+      "wordmark": {
+        "displayName": "Wordmark",
+        "purpose": "Hotel name in the header; 1.5rem mobile, 1.75rem from 640px."
+      },
+      "figure": {
+        "displayName": "Figure",
+        "purpose": "Prices, stay totals, check-in/out times."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Room names and dialog title (sans by rule)."
+      },
+      "value": {
+        "displayName": "Value",
+        "purpose": "Formatted value inside a booking-bar cell."
+      },
+      "body-lg": {
+        "displayName": "Body large",
+        "purpose": "Section intros, hero tagline, nearby place names."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Default reading text, max 60ch for long paragraphs."
+      },
+      "nav": {
+        "displayName": "Nav",
+        "purpose": "Header links; buttons share the size at weight 600."
+      },
+      "small": {
+        "displayName": "Small",
+        "purpose": "Room meta, price breakdowns, errors."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Uppercase field and cell labels, always attached to a value or control."
+      },
+      "caption": {
+        "displayName": "Caption",
+        "purpose": "Photo credit over the hero."
+      }
+    },
+    "shadows": [
+      {
+        "name": "card",
+        "value": "0 1px 2px rgb(30 42 58 / 0.06), 0 8px 24px rgb(30 42 58 / 0.08)",
+        "purpose": "Room cards and the El hotel photo figure."
+      },
+      {
+        "name": "bar",
+        "value": "0 2px 4px rgb(30 42 58 / 0.08), 0 18px 40px rgb(30 42 58 / 0.18)",
+        "purpose": "Booking bar and request dialog: floating task surfaces."
+      },
+      {
+        "name": "header-rule",
+        "value": "0 1px 0 #e4ded3",
+        "purpose": "Hairline under the solid header."
+      },
+      {
+        "name": "dialog-backdrop",
+        "value": "rgb(30 42 58 / 0.6)",
+        "purpose": "Modal backdrop (night at 60%)."
+      }
+    ],
+    "motion": [
+      {
+        "name": "control-colors",
+        "value": "160ms ease",
+        "purpose": "Button background, text and border colour changes."
+      },
+      {
+        "name": "header-solidify",
+        "value": "200ms (colors)",
+        "purpose": "Header goes from transparent to white after 40px of scroll or when the mobile menu opens."
+      },
+      {
+        "name": "anchor-scroll",
+        "value": "scroll-behavior: smooth; scroll-padding-top: 5rem",
+        "purpose": "In-page navigation; disabled under prefers-reduced-motion."
+      },
+      {
+        "name": "busy",
+        "value": "spin (loader icon); 60% opacity on the room grid",
+        "purpose": "Searching and sending states."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "sm",
+        "value": "640px"
+      },
+      {
+        "name": "md",
+        "value": "768px"
+      },
+      {
+        "name": "lg",
+        "value": "1024px"
+      }
+    ],
+    "gradients": [
+      {
+        "name": "hero",
+        "value": "linear-gradient(to bottom, rgb(30 42 58 / .55), rgb(30 42 58 / .15), rgb(30 42 58 / .85))",
+        "purpose": "Hero photo legibility."
+      },
+      {
+        "name": "location-band",
+        "value": "linear-gradient(to right, rgb(30 42 58 / .95), rgb(30 42 58 / .75), rgb(30 42 58 / .10))",
+        "purpose": "Night band photo legibility behind the nearby list."
+      }
+    ],
+    "focus": {
+      "value": "outline: 2px solid #9a6b32; outline-offset: 3px",
+      "purpose": "Global :focus-visible ring."
+    },
+    "fonts": {
+      "source": "@fontsource (self-hosted)",
+      "files": [
+        "libre-caslon-display/400",
+        "figtree/400",
+        "figtree/500",
+        "figtree/600"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The single bronze action: Reservar, Ver disponibilidad, Solicitar, Enviar solicitud.",
+      "html": "<button class=\"ds-btn-primary\">Ver disponibilidad</button> <button class=\"ds-btn-primary\" disabled>Enviando</button>",
+      "css": ".ds-btn-primary { font-family: Figtree, ui-sans-serif, system-ui, sans-serif; display:inline-flex; align-items:center; justify-content:center; gap:8px; height:48px; padding:0 24px; border-radius:6px; font-weight:600; font-size:15px; letter-spacing:0.01em; border:1px solid transparent; cursor:pointer; transition: background-color 160ms ease, color 160ms ease, border-color 160ms ease; background:var(--color-bronze, #9a6b32); color:#fff; } .ds-btn-primary:hover { background:var(--color-bronze-dark, #7f5726); } .ds-btn-primary:focus-visible { outline:2px solid var(--color-bronze, #9a6b32); outline-offset:3px; } .ds-btn-primary:disabled { background:#c9b79f; cursor:not-allowed; }"
+    },
+    {
+      "name": "Outline Button",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "Secondary move: Elegir fechas, Volver a la web.",
+      "html": "<button class=\"ds-btn-outline\">Elegir fechas</button>",
+      "css": ".ds-btn-outline { font-family: Figtree, ui-sans-serif, system-ui, sans-serif; display:inline-flex; align-items:center; justify-content:center; gap:8px; height:48px; padding:0 24px; border-radius:6px; font-weight:600; font-size:15px; letter-spacing:0.01em; border:1px solid transparent; cursor:pointer; transition: background-color 160ms ease, color 160ms ease, border-color 160ms ease; background:transparent; border-color:var(--color-night, #1e2a3a); color:var(--color-night, #1e2a3a); } .ds-btn-outline:hover { background:var(--color-night, #1e2a3a); color:#fff; } .ds-btn-outline:focus-visible { outline:2px solid var(--color-bronze, #9a6b32); outline-offset:3px; }"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "field-input",
+      "description": "Labelled input used in the request dialog, with invalid state.",
+      "html": "<label class=\"ds-field\"><span class=\"ds-label\">Correo</span><input class=\"ds-input\" type=\"email\" placeholder=\"\"></label><label class=\"ds-field\"><span class=\"ds-label\">Nombre</span><input class=\"ds-input\" aria-invalid=\"true\"><span class=\"ds-err\">Escribe tu nombre.</span></label>",
+      "css": ".ds-field { font-family: Figtree, ui-sans-serif, system-ui, sans-serif; display:block; margin-bottom:16px; max-width:20rem; } .ds-label { display:block; font-size:12px; font-weight:600; letter-spacing:0.06em; text-transform:uppercase; color:var(--color-muted, #5b6573); } .ds-input { font-family: Figtree, ui-sans-serif, system-ui, sans-serif; display:block; width:100%; box-sizing:border-box; height:44px; margin-top:6px; border:1px solid var(--color-line, #e4ded3); border-radius:6px; background:#fff; padding:0 12px; color:var(--color-ink, #1b222c); font-size:16px; caret-color:var(--color-bronze, #9a6b32); } .ds-input:hover { border-color:#cbbfae; } .ds-input:focus { border-color:var(--color-bronze, #9a6b32); outline:none; } .ds-input[aria-invalid='true'] { border-color:var(--color-danger, #a83a2c); } .ds-err { display:block; margin-top:4px; font-size:14px; color:var(--color-danger, #a83a2c); }"
+    },
+    {
+      "name": "Booking Bar",
+      "kind": "custom",
+      "refersTo": "booking-bar",
+      "description": "Hairline-divided cells showing formatted values; in the build each cell wraps an invisible native date input or select.",
+      "html": "<form class=\"ds-bar\"><div class=\"ds-cell\"><span class=\"ds-label ds-ic\"><svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><rect x=\"3\" y=\"4\" width=\"18\" height=\"18\" rx=\"2\"/><path d=\"M16 2v4M8 2v4M3 10h18\"/></svg>Llegada</span><span class=\"ds-val\">vie 28 nov</span></div><div class=\"ds-cell\"><span class=\"ds-label ds-ic\"><svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><rect x=\"3\" y=\"4\" width=\"18\" height=\"18\" rx=\"2\"/><path d=\"M16 2v4M8 2v4M3 10h18\"/></svg>Salida · 2 noches</span><span class=\"ds-val\">dom 30 nov</span></div><div class=\"ds-cell\"><span class=\"ds-label\">Adultos</span><span class=\"ds-val\">2 <svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" aria-hidden=\"true\"><path d=\"m6 9 6 6 6-6\"/></svg></span></div><div class=\"ds-cell\"><span class=\"ds-label\">Niños</span><span class=\"ds-val\">0 <svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" aria-hidden=\"true\"><path d=\"m6 9 6 6 6-6\"/></svg></span></div><div class=\"ds-act\"><button type=\"button\" class=\"ds-bar-btn\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" aria-hidden=\"true\"><circle cx=\"11\" cy=\"11\" r=\"8\"/><path d=\"m21 21-4.3-4.3\"/></svg>Ver disponibilidad</button></div></form>",
+      "css": ".ds-bar { font-family: Figtree, ui-sans-serif, system-ui, sans-serif; display:grid; grid-template-columns:1fr 1fr 1fr 1fr auto; overflow:hidden; border-radius:12px; background:#fff; box-shadow:0 2px 4px rgb(30 42 58 / 0.08), 0 18px 40px rgb(30 42 58 / 0.18); } .ds-cell { position:relative; padding:12px 20px; border-right:1px solid var(--color-line, #e4ded3); transition:background-color 150ms; cursor:pointer; } .ds-cell:hover, .ds-cell:focus-within { background:var(--color-sand, #f6f3ee); } .ds-label { display:block; font-size:12px; font-weight:600; letter-spacing:0.06em; text-transform:uppercase; color:var(--color-muted, #5b6573); } .ds-ic { display:flex; align-items:center; gap:6px; } .ds-val { margin-top:4px; display:flex; align-items:center; justify-content:space-between; gap:8px; font-size:18px; font-weight:600; color:var(--color-night, #1e2a3a); } .ds-val svg { color:var(--color-muted, #5b6573); } .ds-act { padding:12px; } .ds-bar-btn { font-family: Figtree, ui-sans-serif, system-ui, sans-serif; display:inline-flex; align-items:center; justify-content:center; gap:8px; height:48px; padding:0 24px; border-radius:6px; font-weight:600; font-size:15px; letter-spacing:0.01em; border:1px solid transparent; cursor:pointer; transition: background-color 160ms ease, color 160ms ease, border-color 160ms ease; height:100%; min-height:48px; min-width:208px; width:100%; background:var(--color-bronze, #9a6b32); color:#fff; } .ds-bar-btn:hover { background:var(--color-bronze-dark, #7f5726); } .ds-bar-btn:focus-visible { outline:2px solid var(--color-bronze, #9a6b32); outline-offset:3px; }"
+    },
+    {
+      "name": "Room Card",
+      "kind": "card",
+      "refersTo": "room-card",
+      "description": "Room card after a search: stay total with tax as the figure, breakdown beneath, Solicitar.",
+      "html": "<article class=\"ds-room\"><div class=\"ds-room-ph\"></div><div class=\"ds-room-b\"><span class=\"ds-badge\">Últimas habitaciones</span><h3 class=\"ds-room-t\">Doble superior</h3><p class=\"ds-room-m\">1 cama matrimonial · Hasta 2 personas</p><p class=\"ds-room-d\">Habitación amplia con vista al patio colonial.</p><div class=\"ds-room-f\"><div><p class=\"ds-fig\">US$ 139,20</p><p class=\"ds-room-m\">2 noches · impuestos incluidos (US$ 120,00 + IVA 16 %)</p></div><button class=\"ds-btn\">Solicitar</button></div></div></article>",
+      "css": ".ds-room { font-family: Figtree, ui-sans-serif, system-ui, sans-serif; display:flex; flex-direction:column; max-width:22rem; overflow:hidden; border-radius:8px; background:#fff; box-shadow:0 1px 2px rgb(30 42 58 / 0.06), 0 8px 24px rgb(30 42 58 / 0.08); } .ds-room-ph { aspect-ratio:4/3; background:var(--color-sand-2, #efe9df); } .ds-room-b { padding:24px; display:flex; flex-direction:column; } .ds-badge { width:fit-content; margin-bottom:12px; border-radius:9999px; background:var(--color-sand-2, #efe9df); padding:4px 12px; font-size:12px; font-weight:600; color:var(--color-bronze-dark, #7f5726); } .ds-room-t { margin:0; font-size:20px; font-weight:600; line-height:1.4; color:var(--color-night, #1e2a3a); } .ds-room-m { margin:8px 0 0; font-size:14px; color:var(--color-muted, #5b6573); } .ds-room-d { margin:12px 0 0; font-size:15px; color:var(--color-ink, #1b222c); opacity:.85; } .ds-room-f { margin-top:20px; padding-top:20px; border-top:1px solid var(--color-line, #e4ded3); display:flex; flex-wrap:wrap; align-items:flex-end; justify-content:space-between; gap:16px; } .ds-fig { margin:0; font-size:24px; font-weight:600; color:var(--color-night, #1e2a3a); } .ds-btn { font-family: Figtree, ui-sans-serif, system-ui, sans-serif; display:inline-flex; align-items:center; justify-content:center; gap:8px; height:48px; padding:0 24px; border-radius:6px; font-weight:600; font-size:15px; letter-spacing:0.01em; border:1px solid transparent; cursor:pointer; transition: background-color 160ms ease, color 160ms ease, border-color 160ms ease; background:var(--color-bronze, #9a6b32); color:#fff; } .ds-btn:hover { background:var(--color-bronze-dark, #7f5726); } .ds-btn:focus-visible { outline:2px solid var(--color-bronze, #9a6b32); outline-offset:3px; }"
+    },
+    {
+      "name": "Request Dialog (sent state)",
+      "kind": "custom",
+      "refersTo": "request-dialog",
+      "description": "Modal panel; shown in its sent state with the confirmation copy.",
+      "html": "<div class=\"ds-dlg\"><div class=\"ds-dlg-h\"><div><h2 class=\"ds-dlg-t\">Solicitud enviada</h2><p class=\"ds-dlg-s\">vie 28 nov – dom 30 nov · 2 noches · 2 huéspedes</p></div><button class=\"ds-x\" aria-label=\"Cerrar\">&#x2715;</button></div><div class=\"ds-dlg-b\"><svg width=\"40\" height=\"40\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#2f6b45\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"m9 12 2 2 4-4\"/></svg><p class=\"ds-dlg-p\">El hotel recibió tu solicitud y te confirmará la reserva en ana@correo.com.</p><p class=\"ds-dlg-n\">Todavía no se ha cobrado nada.</p></div></div>",
+      "css": ".ds-dlg { font-family: Figtree, ui-sans-serif, system-ui, sans-serif; max-width:36rem; border-radius:12px; background:#fff; color:var(--color-ink, #1b222c); box-shadow:0 2px 4px rgb(30 42 58 / 0.08), 0 18px 40px rgb(30 42 58 / 0.18); } .ds-dlg-h { display:flex; justify-content:space-between; gap:16px; padding:20px 24px; border-bottom:1px solid var(--color-line, #e4ded3); } .ds-dlg-t { margin:0; font-size:20px; font-weight:600; color:var(--color-night, #1e2a3a); } .ds-dlg-s { margin:4px 0 0; font-size:14px; color:var(--color-muted, #5b6573); } .ds-x { background:none; border:0; border-radius:6px; padding:8px; color:var(--color-muted, #5b6573); cursor:pointer; } .ds-x:hover { color:var(--color-night, #1e2a3a); } .ds-x:focus-visible { outline:2px solid var(--color-bronze, #9a6b32); outline-offset:3px; } .ds-dlg-b { padding:32px 24px; } .ds-dlg-p { margin:16px 0 0; font-size:18px; color:var(--color-night, #1e2a3a); } .ds-dlg-n { margin:8px 0 0; color:var(--color-muted, #5b6573); }"
+    },
+    {
+      "name": "Header (solid)",
+      "kind": "nav",
+      "refersTo": "header-solid",
+      "description": "Fixed header after scroll: Caslon wordmark, section links, bronze Reservar.",
+      "html": "<header class=\"ds-hdr\"><a class=\"ds-wm\" href=\"#\">Hotel Santa Ana</a><nav class=\"ds-nav\"><a href=\"#\">Habitaciones</a><a href=\"#\">El hotel</a><a href=\"#\">Ubicación</a><a href=\"#\">Contacto</a><a class=\"ds-res\" href=\"#\">Reservar</a></nav></header>",
+      "css": ".ds-hdr { font-family: Figtree, ui-sans-serif, system-ui, sans-serif; display:flex; align-items:center; justify-content:space-between; gap:24px; height:80px; padding:0 32px; background:#fff; color:var(--color-night, #1e2a3a); box-shadow:0 1px 0 var(--color-line, #e4ded3); } .ds-wm { font-family: 'Libre Caslon Display', 'Iowan Old Style', Georgia, serif; font-size:28px; line-height:1; color:inherit; text-decoration:none; } .ds-nav { display:flex; align-items:center; gap:32px; } .ds-nav a { color:inherit; font-size:15px; font-weight:500; text-decoration:none; text-underline-offset:8px; } .ds-nav a:hover { text-decoration:underline; } .ds-nav a:focus-visible { outline:2px solid var(--color-bronze, #9a6b32); outline-offset:3px; } .ds-nav .ds-res { font-family: Figtree, ui-sans-serif, system-ui, sans-serif; display:inline-flex; align-items:center; justify-content:center; gap:8px; height:48px; padding:0 24px; border-radius:6px; font-weight:600; font-size:15px; letter-spacing:0.01em; border:1px solid transparent; cursor:pointer; transition: background-color 160ms ease, color 160ms ease, border-color 160ms ease; height:44px; background:var(--color-bronze, #9a6b32); color:#fff; } .ds-nav .ds-res:hover { background:var(--color-bronze-dark, #7f5726); text-decoration:none; }"
+    },
+    {
+      "name": "Divided Contact List",
+      "kind": "custom",
+      "refersTo": null,
+      "description": "Hairline-divided rows; bronze icon, uppercase label, night value underlined on hover.",
+      "html": "<ul class=\"ds-list\"><li><a href=\"#\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z\"/></svg><span class=\"ds-label ds-w\">Teléfono</span><span class=\"ds-v\">+58 268 251 0000</span></a></li><li><a href=\"#\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z\"/></svg><span class=\"ds-label ds-w\">WhatsApp</span><span class=\"ds-v\">+58 414 000 0000</span></a></li></ul>",
+      "css": ".ds-list { font-family: Figtree, ui-sans-serif, system-ui, sans-serif; list-style:none; margin:0; padding:0; max-width:32rem; border-top:1px solid var(--color-line, #e4ded3); border-bottom:1px solid var(--color-line, #e4ded3); } .ds-list li + li { border-top:1px solid var(--color-line, #e4ded3); } .ds-list a { display:flex; align-items:center; gap:16px; padding:20px 0; text-decoration:none; } .ds-list svg { color:var(--color-bronze, #9a6b32); flex-shrink:0; } .ds-label { display:block; font-size:12px; font-weight:600; letter-spacing:0.06em; text-transform:uppercase; color:var(--color-muted, #5b6573); } .ds-w { width:96px; flex-shrink:0; } .ds-v { font-weight:500; color:var(--color-night, #1e2a3a); text-underline-offset:4px; } .ds-list a:hover .ds-v { text-decoration:underline; } .ds-list a:focus-visible { outline:2px solid var(--color-bronze, #9a6b32); outline-offset:3px; }"
+    },
+    {
+      "name": "Demo Banner",
+      "kind": "custom",
+      "refersTo": "demo-banner",
+      "description": "Fixed honesty strip shown when a site is a demonstration.",
+      "html": "<div class=\"ds-demo\">Sitio de demostración: habitaciones, precios y fotos son de ejemplo.</div>",
+      "css": ".ds-demo { font-family: Figtree, ui-sans-serif, system-ui, sans-serif; display:flex; align-items:center; justify-content:center; height:36px; padding:0 16px; background:var(--color-night, #1e2a3a); color:rgb(255 255 255 / 0.9); font-size:13px; text-align:center; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Chain-Standard Front Desk",
+    "overview": "The hotel website the traveller already knows how to use, finished to the level of a Marriott, Hyatt or Hilton page: a large bleed photograph, a date search in plain view, and room cards that show the real cost of the stay. It does not try to be original. It tries to have no careless detail. The product commitment behind it is explicit: the category standard, executed without irony.\n\nThe palette is hospitality-neutral: white and warm sand grounds, a deep night blue for text, header and the location band, and one bronze reserved for the primary action and small accents. A high-contrast display serif carries the hotel's name and the section titles; a clean geometric sans carries everything that has to be read, compared or tapped, including room names and prices. Density is generous and calm (80 to 112px between sections), one column of intent per section.\n\nIt is a **multi-tenant template**. Every hotel gets the same system; what changes is content pulled from that hotel's ERP record. The system never varies per hotel (no per-hotel colours, fonts or layouts); a hotel is expressed only through its photographs, name, words and data.",
+    "keyCharacteristics": [
+      "One bronze action colour; everything else is night, ink, muted, sand and white.",
+      "Display serif only at display sizes (the hero name, section titles, the hotel wordmark); sans for all reading and data.",
+      "Bleed photography with night gradients for legibility, always credited when the photo is not the hotel's own.",
+      "A white booking bar overlapping the bottom edge of the hero photo, built from hairline-divided cells over invisible native controls.",
+      "Prices are honest: the stay total with tax is the headline figure, the breakdown sits under it.",
+      "Honesty is a visual rule: demo sites say so in a fixed banner; borrowed photos carry visible credit."
+    ],
+    "rules": [
+      {
+        "name": "The One Bronze Rule",
+        "body": "Bronze means \"this moves you toward a booking\". If it is not the primary action, a focus ring, or a small accent icon, it is not bronze.",
+        "section": "colors"
+      },
+      {
+        "name": "The Night Gradient Rule",
+        "body": "Text never sits on a raw photograph. Every photo that carries text gets a `night` gradient weighted toward the text's edge.",
+        "section": "colors"
+      },
+      {
+        "name": "The Display-Size Rule",
+        "body": "Libre Caslon Display appears only at display sizes: the hero name and section titles at 32px and above, plus the header wordmark (24–28px) as the hotel's name lockup. Everything a guest reads, compares or taps is Figtree, including room names.",
+        "section": "typography"
+      },
+      {
+        "name": "The Price-in-Sans Rule",
+        "body": "Money is always Figtree 600 in `night`, formatted by the system (`es-VE` locale, the hotel's currency); totals show two decimals.",
+        "section": "typography"
+      },
+      {
+        "name": "The First-Viewport Search Rule",
+        "body": "On every screen size, the date search and its action are visible without scrolling. Any change to hero height, header height or banner height is checked against this.",
+        "section": "layout"
+      },
+      {
+        "name": "The Two Lifts Rule",
+        "body": "Only cards (Card shadow) and task surfaces (Bar shadow) float. Lists, sections and buttons stay flat.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** keep bronze for the primary action, the focus ring and small accent icons only (The One Bronze Rule).",
+      "**Do** lay a `night` gradient under every photograph that carries text.",
+      "**Do** show the stay total with tax as the main price once dates are known, with the net amount and IVA rate underneath.",
+      "**Do** keep the booking bar's visible values as formatted text over the real native controls, so keyboard, screen readers and mobile pickers keep working.",
+      "**Do** keep the search action inside the first viewport on mobile (hero 58svh, min 420px) and keep the compact \"Reservar\" in the mobile header.",
+      "**Do** show the demo banner and `noindex` whenever a site is a demonstration, and credit every borrowed photo both on the hero and in the footer.",
+      "**Do** hide a section, figure or caption when the hotel has no content for it instead of showing a placeholder.",
+      "**Do** use Figtree for room names, prices, labels and forms; reserve Caslon for the hotel name and section titles."
+    ],
+    "donts": [
+      "**Don't** vary colours, fonts or layout per hotel; a hotel is expressed only through its photos, words and data.",
+      "**Don't** set Libre Caslon Display below the wordmark's 24px or use it for room names, prices or body copy.",
+      "**Don't** add testimonials, ratings, scarcity counters or prices the ERP did not provide; \"Últimas habitaciones\" appears only when the availability data says so.",
+      "**Don't** box the nearby and contact lists in cards; they are hairline-divided rows.",
+      "**Don't** add shadows beyond the Card and Bar shadows, or lift buttons and lists.",
+      "**Don't** put text directly on an ungraded photograph."
+    ]
+  }
+}

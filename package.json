@@ -1,0 +1,29 @@
+{
+  "name": "@erp/site",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 8091",
+    "build": "next build",
+    "start": "next start -p 8091",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@erp/shared": "workspace:*",
+    "@fontsource/figtree": "^5.3.0",
+    "@fontsource/libre-caslon-display": "^5.3.0",
+    "lucide-react": "^0.511.0",
+    "next": "^15.5.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "server-only": "^0.0.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.0",
+    "@types/node": "^22.15.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "tailwindcss": "^4.1.0",
+    "typescript": "^5.8.0"
+  }
+}
